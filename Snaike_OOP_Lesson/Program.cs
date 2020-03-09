@@ -10,16 +10,10 @@ namespace Snaike_OOP_Lesson
     {
         static void Main(string[] args)
         {
-            Point p1 = new Point(); //
-            p1.x = 11;
-            p1.y = 3;
-            p1.sym = '*';
+            Point p1 = new Point(2, 4, '&'); 
             p1.Draw();
 
-            Point p2 = new Point(); //
-            p2.x = 14;
-            p2.y = 6;
-            p2.sym = '#';
+            Point p2 = new Point(12, 10, '%'); 
             p2.Draw();
 
 
